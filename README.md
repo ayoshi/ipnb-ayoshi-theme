@@ -34,3 +34,7 @@ ipython notebook --profile=ipnb
 
 ## With all the default bling
 ![Alt text](/screenshots/2.png?raw=true "Screenshot 1")
+
+
+# Thanks to
+Code coloring is [Solarized by Ethan Shoonover](http://ethanschoonover.com/solarized) on grey background
