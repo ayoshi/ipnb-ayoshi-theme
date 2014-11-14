@@ -3,7 +3,7 @@ ipnb-ayoshi-theme
 
 # Overview
 
-This is an ipython notebook theme designed to keep focus on code and text, as well as be visually appealing. This is work in progress, and things are bound to change.
+This is an ipython notebook theme designed to keep the focus on the code and text, as well as be visually appealing. This is a work in progress, and things are bound to change. Patches and comments are welcome.
 
 # Installation
 
@@ -12,10 +12,20 @@ This is an ipython notebook theme designed to keep focus on code and text, as we
 ipython notebook --profile=ipnb
 
 # Replace custom.css
-cd ~/.ipython/profile_flat/static/custom
+cd ~/.ipython/profile_ipnb/static/custom
 rm custom.css
 wget https://raw.githubusercontent.com/ayoshi/ipnb-ayoshi-theme/master/custom.css
+
+# Enjoy
+ipython notebook --profile=ipnb
 ```
+
+# TODO
+- Clean up traceback colors
+- Remove rounding from toolbar selectors
+- Improve markdown rendering code
+- Style the file selection screen
+- Clean up and refactor CSS (it's a mess for now)
 
 # Screenshots
 
