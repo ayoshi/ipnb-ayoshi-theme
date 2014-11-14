@@ -19,7 +19,11 @@
 }
 
 span#notebook_name {
-font-size: 120%;
+font-size: 100%;
+}
+
+span#checkpoint_status {
+font-size: 80;
 }
 
 /* Notebook */
@@ -229,7 +233,7 @@ div#menubar-container {
 }
 
 div.output_stderr {
-    background: rgba(254, 138, 136, 0.15);
+    background: rgba(220, 50, 47, 0.08);
 }
 
 div.output_area pre {
