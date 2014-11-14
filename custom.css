@@ -1,0 +1,213 @@
+/* Reset backgrounds, gradients, corners */
+* {
+    -webkit-box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    box-shadow: none!important;
+    text-shadow: none!important;
+    -webkit-border-radius: 0!important;
+    -moz-border-radius: 0!important;
+    border-radius: 0!important;
+//  background-image: none !important;
+}
+
+/* Notebook */
+div#notebook {
+    border-top: 1px solid rgba(0,0,0,0.1); // make border between toolbar and code softer
+}
+
+div #pager_splitter {
+    height: 4px;
+    background: rgba(0,0,0,0.1);
+    border: 0px;
+}
+
+/* Center code column */
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 800px !important;
+}
+
+/* Cells */
+/** Change code font **/
+code, pre {
+    font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+    font-size: 12px;
+}
+.CodeMirror pre {
+    font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+    font-size: 12px;
+}
+
+div.cell{
+}
+
+div.input_area {
+    border: 1px solid #cfcfcf;
+    background: #f7f7f7;
+    line-height: 1.21429em;
+}
+
+.prompt.input_prompt {
+    color: rgba(0,0,0,0.2);
+    font-size: 8px;
+}
+
+.prompt.output_prompt {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 8px;
+}
+
+.cell.command_mode.selected {
+    border-color: rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 5px #f0f0f0;
+    -webkit-box-shadow: 0px 0px 5px #f0f0f0;
+}
+
+.cell.edit_mode.selected {
+    border-color: rgba(0,0,0,0.30);
+    box-shadow: 0px 0px 5px #f0f0f0;
+    -webkit-box-shadow: 0px 0px 5px #f0f0f0;
+}
+
+div.output_scroll {
+    -webkit-box-shadow: inset 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: inset 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.btn.output_collapsed {
+    background-color: rgba(255, 255, 255, 1) !important;
+    border: none;
+    width: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+}
+
+div.out_prompt_overlay {
+font-size: 8px;
+}
+
+
+div.text_cell_render {
+    //font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-family: 'PT Serif', sans-serif;
+    line-height: 145%; /* added for some line sping of text. */
+    font-size: 14px;
+}
+
+div.input_area {
+    border-color: rgba(0,0,0,0.10);
+    border-radius: 0px
+    background: rbga(0,0,0,0.5);
+}
+
+div.inner_cell {
+}
+
+
+
+div.text_cell_render h1,
+div.text_cell_render h2,
+div.text_cell_render h3,
+div.text_cell_render h4,
+div.text_cell_render h5,
+div.text_cell_render h6 {
+    // font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-family: 'PT Serif', sans-serif;
+    // font-weight: 300;
+}
+
+div.text_cell_render h1 {
+    font-size: 24px;
+}
+
+div.text_cell_render h2 {
+    font-size: 18px;
+}
+
+div.text_cell_render h3 {
+    font-size: 14px;
+}
+
+.rendered_html pre,
+.rendered_html code {
+    font-size: medium;
+}
+
+.rendered_html ol {
+    list-style:decimal;
+    margin: 1em 2em;
+}
+
+
+
+div#menubar-container {
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    //font-family: Helvetica, Arial, sans-serif;
+    font-size: 10px;
+}
+
+#menubar .navbar {
+    margin-bottom: 0px;
+}
+
+#menubar .navbar-inner {
+    background: rgba(0,0,0,0);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+    border: none;
+}
+
+.navbar-fixed-top .navbar-inner,
+.navbar-static-top .navbar-inner {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border: none;
+}
+
+#site * .btn {
+background: rgba(0,0,0,0);
+color: rgba(0,0,0,0.5);
+-webkit-box-shadow: none;
+box-shadow: none;
+border-radius: 0px;
+border: none;
+}
+
+
+.notification_widget {
+    border-radius: 0px;
+}
+
+
+/* Code mirror theme */
+
+.CodeMirror-lines {
+    background: #fdfdfd;
+}
+
+.cm-s-ipython span.cm-keyword snap.ansigreen {color: #859900; font-weight: bold;}
+.cm-s-ipython span.cm-number {color: #b58900;}
+.cm-s-ipython span.cm-operator {color: #268bd2; font-weight: bold;}
+.cm-s-ipython span.cm-meta {color: #cb4b16;}
+.cm-s-ipython span.cm-comment {color: #586e75; font-style: italic;}
+.cm-s-ipython span.cm-string {color: #2aa198;}
+.cm-s-ipython span.cm-error {color: #dc322f;}
+.cm-s-ipython span.cm-builtin {color: #cb4b16;}
+.cm-s-ipython span.cm-variable {color: #839496;}
+
+
+/* Tweaking markdown code render */
+
+.rendered_html code {
+    font-family: Menlo, Monaco, Consolas, 'Courier New', monospace !important;
+font-size: 12px !important;
+border: 0;
+background-color: #fdfdfd;
+color: #000;
+font-size: 100%;
+padding: 0;
+}
