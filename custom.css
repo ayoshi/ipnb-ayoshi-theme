@@ -49,7 +49,7 @@ div#notebook {
 }
 
 div #pager_splitter {
-    height: 4px;
+    height: 1px;
     background: rgba(0,0,0,0.1);
     border: 0px;
 }
