@@ -76,9 +76,14 @@ div.cell{
 }
 
 div.input_area {
-    border: 1px solid #cfcfcf;
+    border: 0px solid rgba(0,0,0,0.10);
+    box-shadow: 0px 0px 5px #f0f0f0 !important;
+    -webkit-box-shadow: 0px 0px 5px #f0f0f0 !important;
     background: #f7f7f7;
     line-height: 1.21429em;
+    border-color:
+    border-radius: 0px
+    background: rbga(0,0,0,0.5);
 }
 
 .prompt.input_prompt {
@@ -95,13 +100,14 @@ div.input_area {
 .cell.command_mode.selected {
     border-color: rgba(0,0,0,0.1);
     box-shadow: 0px 0px 5px #f0f0f0;
-    -webkit-box-shadow: 0px 0px 5px #f0f0f0;
+    -webkit-box-shadow: 0px 0px 5px #f0f0f0 !important;
+    box-shadow: 0px 0px 5px #f0f0f0 !important;
 }
 
 .cell.edit_mode.selected {
     border-color: rgba(0,0,0,0.30);
-    box-shadow: 0px 0px 5px #f0f0f0;
-    -webkit-box-shadow: 0px 0px 5px #f0f0f0;
+    box-shadow: 0px 0px 5px #f0f0f0 !important;
+    -webkit-box-shadow: 0px 0px 5px #f0f0f0 !important;
 }
 
 div.output_scroll {
@@ -129,17 +135,6 @@ div.text_cell_render {
     line-height: 145%; /* added for some line sping of text. */
     font-size: 14px;
 }
-
-div.input_area {
-    border-color: rgba(0,0,0,0.10);
-    border-radius: 0px
-                       background: rbga(0,0,0,0.5);
-}
-
-div.inner_cell {
-}
-
-
 
 div.text_cell_render h1,
 div.text_cell_render h2,
