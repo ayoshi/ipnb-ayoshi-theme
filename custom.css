@@ -65,6 +65,11 @@ div#pager pre {
     font-size: 12px;
 }
 
+.rendered_html tr, .rendered_html th, .rendered_html td {
+border: 1px solid #000;
+border-collapse: collapse;
+font-size: 12px;
+}
 /* Center code column */
 .container {
     margin-right: auto;

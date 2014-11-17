@@ -21,19 +21,18 @@ ipython notebook --profile=ipnb
 ```
 
 # TODO
-- Clean up traceback colors
 - Remove rounding from toolbar selectors
-- Improve markdown rendering code
-- Style the file selection screen
+- Improve markdown rendering code when in editing mode
 - Clean up and refactor CSS (it's a mess for now)
+- Style tooltips
 
 # Screenshots
 
-## With disabled headers and toolbars
-![Alt text](/screenshots/3.png?raw=true "Screenshot 1")
+## Markdown
+![Alt text](/screenshots/.png?raw=true "Markdown")
 
-## With all the default bling
-![Alt text](/screenshots/2.png?raw=true "Screenshot 1")
+## Code
+![Alt text](/screenshots/2.png?raw=true "Code")
 
 
 # Thanks to
