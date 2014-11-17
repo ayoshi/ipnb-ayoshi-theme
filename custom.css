@@ -230,6 +230,8 @@ div#menubar-container {
     font-size: 12px !important;
     border: 1px;
     background-color: #fafafa;
+    box-shadow: 0px 0px 5px #f0f0f0 !important;
+    -webkit-box-shadow: 0px 0px 5px #f0f0f0 !important;
     color: #000;
     padding: 0;
 }
