@@ -29,10 +29,10 @@ ipython notebook --profile=ipnb
 # Screenshots
 
 ## Markdown
-![Alt text](/screenshots/.png?raw=true "Markdown")
+![Alt text](/screenshots/markdown.png?raw=true "Markdown")
 
 ## Code
-![Alt text](/screenshots/2.png?raw=true "Code")
+![Alt text](/screenshots/code.png?raw=true "Code")
 
 
 # Thanks to
